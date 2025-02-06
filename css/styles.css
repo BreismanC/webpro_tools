@@ -101,7 +101,7 @@ body {
 }
 
 .header {
-  background-image: url("assets/header__mobile.jpg");
+  background-image: url("/assets/header__mobile.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -492,7 +492,7 @@ header .logo {
 
 @media (width > 576px) {
   .header {
-    background-image: url("assets/header__desktop.jpeg");
+    background-image: url("/assets/header__desktop.jpeg");
   }
 
   .feature__container .section__subheader {
@@ -611,7 +611,7 @@ header .logo {
   }
 
   .service {
-  background-image: url("assets/service.jpg");
+  background-image: url("/assets/service.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

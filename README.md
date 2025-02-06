@@ -14,22 +14,20 @@ La estructura de archivos del proyecto es la siguiente:
 
 ```
 webpro-tools/
-└── 📁.vscode
-        └── settings.json
+└── 📁assets
+        └── about.jpg
+        └── header__desktop.jpeg
+        └── header__mobile.jpg
+        └── logo.svg
+        └── service.jpg
+        └── subscription.svg
     └── 📁css
         └── styles.css
     └── 📁js
         └── main.js
-    └── 📁public
-        └── 📁assets
-            └── about.jpg
-            └── header__desktop.jpeg
-            └── header__mobile.jpg
-            └── logo.svg
-            └── service.jpg
-            └── subscription.svg
     └── index.html
     └── README.md
+    └── webprotools.zip
 ```
 
 ## 🚀 Cómo ejecutar el proyecto en local
