@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Librería de íconos -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>WebPro Tools | Breisman Chalaca</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav">
+        <div class="nav__bar">
+          <div class="logo">
+            <a href="#header"
+              ><img src="/public/assets/logo.svg" alt="logo"
+            /></a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#features">Características</a></li>
+        </ul>
+        <a href="#subscribe"><button class="btn nav__btn">Contacto</button></a>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <h2>Convierte tu pasión por el código en habilidades reales</h2>
+        <h1>
+          <p>Domina la Programación</p>
+          <p>con</p>
+          <p><span>WebPro Tools</span>.</p>
+        </h1>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img
+          src="/public/assets/about.jpg"
+          alt="about"
+          title="Acerca de WebPro Tools"
+        />
+      </div>
+      <div class="about__content">
+        <h4 class="section__subheader">Acerca de nosotros</h4>
+        <h3 class="section__header">El momento de cambiar tu vida es hoy!</h3>
+        <p class="section__description">
+          Aprende los lenguajes de programación más demandados con cursos
+          prácticos, proyectos reales y mentoría experta. Ya sea que estés
+          comenzando o quieras perfeccionar tus conocimientos, en WebPro Tools
+          encontrarás todo lo que necesitas para llevar tu carrera al siguiente
+          nivel.
+        </p>
+        <div class="about__btn">
+          <button class="btn">Leer más</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container feature__container" id="features">
+      <h4 class="section__subheader">Invierte en tu futuro</h4>
+      <h3 class="section__header">¿Por qué elegir WebPro Tools?</h3>
+      <article class="banner__container">
+        <div class="banner__card">
+          <h4>Aprendizaje 100% práctico</h4>
+          <p>
+            Olvídate de la teoría aburrida. Nuestros cursos están diseñados con
+            proyectos reales para que aprendas programando desde el primer día.
+          </p>
+        </div>
+        <div class="banner__card">
+          <h4>Acceso ilimitado y flexible</h4>
+          <p>
+            Estudia a tu propio ritmo, desde cualquier lugar y en cualquier
+            momento. Una vez que compras un curso, es tuyo para siempre.
+          </p>
+        </div>
+        <div class="banner__card">
+          <h4>Mentoría y comunidad</h4>
+          <p>
+            No estás solo en este viaje. Únete a una comunidad de programadores
+            y recibe apoyo de expertos para resolver tus dudas y mejorar tus
+            habilidades.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <section class="service" id="service">
+      <div class="section__container service__container">
+        <div class="service__content">
+          <h4 class="section__subheader">Servicios</h4>
+          <h3 class="section__header">Esforzarse solo por lo mejor.</h3>
+          <ul class="service__list">
+            <li>
+              <span><i class="ri-shield-star-line"></i></span>
+              Certificaciones Digitales
+            </li>
+            <li>
+              <span><i class="ri-24-hours-line"></i></span>
+              Plataforma de Aprendizaje 24/7
+            </li>
+            <li>
+              <span><i class="ri-headphone-line"></i></span>
+              Mentoría y Comunidad
+            </li>
+            <li>
+              <span><i class="ri-map-2-line"></i></span>
+              Rutas de Aprendizaje Personalizadas
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscription" id="subscription">
+      <h4 class="section__subheader">
+        Recibe las últimas novedades y ofertas exclusivas
+      </h4>
+      <h3 class="section__header">¡Conéctate con Nosotros!</h3>
+      <div class="subscription__bg">
+        <div class="subscription__content">
+          <p class="section__description">
+            Suscríbete a nuestra comunidad y mantente al día con nuevos cursos,
+            descuentos especiales y contenido exclusivo para mejorar tus
+            habilidades en programación.
+          </p>
+          <div class="subscription__form-container">
+            <form action="/" class="subscription__form" id="subscription__form">
+              <div class="input__group">
+                <label for="check-in">
+                  <span><i class="ri-mail-send-line"></i></span>
+                  <span>Correo electrónico</span>
+                </label>
+                <input type="email" placeholder="Correo@gmail.com" id="email" />
+              </div>
+              <div class="input__group input__btn">
+                <button class="btn" type="submit">Suscríbete ahora</button>
+              </div>
+              <span class="subscription__error" disabled></span>
+            </form>
+            <div class="subscription__image">
+              <img
+                src="/public/assets/subscription.svg"
+                alt="subscription"
+                title="Suscripción"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col col__logo">
+          <div class="logo">
+            <a href="#home"><img src="/public/assets/logo.svg" alt="logo" /></a>
+          </div>
+          <p class="section__description">
+            Invierte en tu futuro y adquiere nuevas habilidades con nuestros
+            cursos diseñados para convertirte en un experto del código.
+          </p>
+        </div>
+        <div class="footer__col col__links">
+          <h4>Enlaces de interés</h4>
+          <ul class="footer__links">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Nuestros cursos</a></li>
+            <li><a href="#">Testimonios</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer__col .col__services">
+          <h4>Servicios</h4>
+          <ul class="footer__links">
+            <li><a href="#">Cursos de programación</a></li>
+            <li><a href="#">Rutas de aprendizaje</a></li>
+            <li><a href="#">Proyectos reales</a></li>
+            <li><a href="#">Mentoría y comunidad</a></li>
+          </ul>
+        </div>
+        <div class="footer__col col__socials">
+          <h4>Contáctanos</h4>
+          <ul class="footer__links">
+            <li><a href="#">breisman.chalaca@gmail.com</a></li>
+          </ul>
+          <div class="footer__socials">
+            <a href="https://www.facebook.com/breisman.chalak/" target="_blank"
+              ><i class="ri-facebook-circle-fill"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/breisman_chalaca/?hl=es"
+              target="_blank"
+              ><i class="ri-instagram-fill"></i
+            ></a>
+            <a
+              href="https://www.youtube.com/channel/UCQLhBJhwcHkTKshtcTCLERQ/community?pvf=CAI%253D"
+              target="_blank"
+              ><i class="ri-youtube-fill"></i
+            ></a>
+            <a href="https://x.com/breisman_chala" target="_blank"
+              ><i class="ri-twitter-fill"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2025 Desarrollado por Breisman Chalaca. Todos los derechos
+        reservados.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
+  </body>
+</html>
